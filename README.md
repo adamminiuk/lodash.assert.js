@@ -1,4 +1,4 @@
-# [Underscore.js][1] assertion helper
+# [lodash][1] assertion helper
 
 - This is not for tests files in project...
 - This is not instead of [Jasmine][2] or any test framework...
@@ -52,13 +52,13 @@ There is a shorter, nicer and better practice.
 ## Changelog
 
 - Change `Assertion.prototype` from `new Error()` to `Error.prototype`.
-- Added `assert` method to main `_` underscore namespace.
+- Added `assert` method to main `_` lodash namespace.
 Method throws `AssertionError` when first param isn't cast to {boolean} `true`.
 
 ## License
 
 [The MIT License][0]
 
-[0]: http://piecioshka.mit-license.org
-[1]: http://underscorejs.org/
+[0]: http://mit-license.org
+[1]: https://lodash.com/
 [2]: http://pivotal.github.io/jasmine/

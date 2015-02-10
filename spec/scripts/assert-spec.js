@@ -1,5 +1,5 @@
 describe("assert", function () {
-    it('should exists in underscore', function () {
+    it('should exists in lodash', function () {
         expect(_.assert).not.toBeUndefined();
     });
 

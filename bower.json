@@ -1,14 +1,15 @@
 {
-  "name": "underscore.assert.js",
-  "main": "underscore.assert.js",
+  "name": "lodash.assert.js",
+  "main": "lodash.assert.js",
   "version": "1.0.0",
-  "homepage": "https://github.com/piecioshka/underscore.assert.js",
+  "homepage": "https://github.com/adamminiuk/lodash.assert.js",
   "authors": [
-    "Piotr Kowalski <piecioshka@gmail.com>"
+    "Piotr Kowalski <piecioshka@gmail.com>",
+    "Adam Miniuk <adamminiuk@gmail.com>"
   ],
-  "description": "Underscore.js assertion helper",
+  "description": "lodash assertion helper",
   "keywords": [
-    "underscore",
+    "lodash",
     "assert",
     "testing"
   ],
@@ -22,6 +23,6 @@
     "tests"
   ],
   "dependencies": {
-    "underscore": null
+    "lodash": null
   }
 }

@@ -1,8 +1,10 @@
 /**
  * @author Piotr Kowalski <piecioshka@gmail.com>
- * @fileOverview Underscore.js assertion helper
+ * @author Adam Miniuk <adamminiuk@gmail.com>
+ * @fileOverview lodash assertion helper
  * @see https://github.com/piecioshka/underscore.assert
- * @requires http://underscorejs.org/
+ * @see https://github.com/adamminiuk/lodash.assert
+ * @requires https://lodash.com/
  * @license The MIT License
  */
 
@@ -19,7 +21,7 @@
     'use strict';
 
     if (typeof define !== 'undefined' && define.amd) {
-        define(['underscore'], factory);
+        define(['lodash'], factory);
     } else {
         factory(root._);
     }
