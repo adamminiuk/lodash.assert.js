@@ -55,7 +55,6 @@
         }
     }
 
-    _.mixin({
-        'assert': assert
-    });
+    // No need to use `mixin`.
+    _.assert = assert;
 }));
